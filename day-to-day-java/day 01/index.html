@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-do List Platform do dynamically</title>
+    <script src="task.js" defer></script>
+    <link rel="stylesheet" src="task.css">
+</head>
+
+<body>
+    <h1 class="main-heading">Task Management Dashboard</h1>
+    <div class="main-container">
+        <div class="sub-containerone">
+            <h2 class="subone-heading">Dashboard</h2>
+            <ul class="sub-ul">
+                <li class="sub-li" id="assignActivity">Assign Activity</li>
+                <li class="sub-li" id="teamAlist">Team A (Developing)</li>
+                <li class="sub-li" id="teamBlist">Team B (SEO)</li>
+                <li class="sub-li" id="teamClist">Team C (Digital Marketing)</li>
+                <li class="sub-li" id="teamDlist">Team D (Outreach)</li>
+            </ul>
+        </div>
+        <div class="sub-containertwo" id="subcontainerTwo">
+            <div id="sectionassign" class="section">
+                <h2 class="subtwo-heading">Team Task Allocation</h2>
+                <p class="subtwo-subheading">Assign daily tasks to each team and track their progress.</p>
+                <label class="subtwo-label">Daily Tasks</label>
+                <input type="text" id="inputElement" placeholder="Enter the task" class="subtwo-text" />
+                <label class="subtwo-label">Choose the team</label>
+                <select id="team" class="team-select">
+                    <option value="">Select Team</option>
+                    <option value="teamA">Team A</option>
+                    <option value="teamB">Team B</option>
+                    <option value="teamC">Team C</option>
+                    <option value="teamD">Team D</option>
+                </select>
+                <button class="assign-btn" id="assignTask">Add Task</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
