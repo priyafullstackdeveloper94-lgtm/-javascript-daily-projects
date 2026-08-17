@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Total Body Designs */
+
+body {
+    margin: 0;
+}
+
+/* Universal Selector for Whole Project */
+
+* {
+    font-family: Open Sans;
+}
+
+/* Main Body Styles */
+.main-heading {
+    text-align: center;
+    font-size: 26px;
+    background: linear-gradient(135deg, #1e293b, #475569);
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+    min-height: 100vh;
+}
+
+/* Left Container Styles */
+
+.sub-containerone {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    max-width: 200px;
+}
+
+.subone-heading {
+    color: #f8fafc;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background: linear-gradient(135deg, #F97316, #C2410C);
+}
+
+.sub-ul {
+    list-style-type: none;
+    color: #f8fafc;
+    margin: 0;
+    padding-left: 0;
+}
+
+.sub-li {
+    padding: 15px;
+    text-align: left;
+}
+
+.sub-li:hover {
+    background: linear-gradient(135deg, #F97316, #C2410C);
+}
+
+.sub-li.active {
+    background: linear-gradient(135deg, #F97316, #C2410C);
+}
+
+
+/* Right Side Container Styles */
+
+.sub-containertwo {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.section {
+    display: none;
+}
+
+.subtwo-heading {
+    color: #f8fafc;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.subtwo-subheading {
+    color: #f8fafc;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.subtwo-text {
+    border-radius: 12px;
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.subtwo-label {
+    color: #f8fafc;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.team-select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background: #1e293b;
+    color: #F8FAFC;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.team-select:focus {
+    border-color: #F97316;
+    box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
+}
+
+.team-select option {
+    background: #1e293b;
+    color: #F8FAFC;
+}
+
+.assign-btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #F97316, #C2410C);
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    float: right;
+}
+
+.assign-btn:hover {
+    background: linear-gradient(135deg, #FB923C, #EA580C);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(249, 115, 22, 0.25);
+}
+
+.assign-btn:active {
+    transform: translateY(0);
+}
+
+.team-list {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subtwo-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subtwo-li {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-left: 5px solid #F97316;
+}
